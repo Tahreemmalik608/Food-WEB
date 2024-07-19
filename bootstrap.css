@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.img-fluid{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+h1{
+  margin-left: 15px;
+}
+p{
+  font-size: 13px;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img2{ 
+clip-path: circle(50% at 50% 50%);
+
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container{
+  height: 450px;
+    width: 55%; 
+    border:1px solid gray;
+    margin:50px auto;
+}
+.image{
+  display: flex;
+  flex-direction: row;
+  justify-content:start ;
+  margin-top: 15px;
+}
+.texture{
+margin-top: -370px;
+margin-left: 830px;
+
+}
+.lstbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.con{
+  height: 100px;
+    width: 100%; 
+   background-color: black;
+    margin-top: 50px;
+}
+.txt{
+  display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        color: white;
+        gap: 35px;
+       
+       
+}
+li{
+  list-style-type: none;
+}
